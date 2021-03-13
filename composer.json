@@ -1,17 +1,21 @@
 {
-    "name": "yokov/captcha",
+    "name": "sobyte/captcha",
     "description": "Captcha generator",
     "license": "MIT",
     "authors": [
         {
             "name": "yokov",
             "email": "yokov666@gmail.com"
-        }
+        },
+        {
+            "name": "sobyte",
+            "email": "lightenvoy@gmail.com"
+        },
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "Yokov\\Captcha\\": "src"
+            "Sobyte\\Captcha\\": "src"
         }
     }
 }
