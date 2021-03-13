@@ -10,7 +10,7 @@
         {
             "name": "sobyte",
             "email": "lightenvoy@gmail.com"
-        },
+        }
     ],
     "require": {},
     "autoload": {
