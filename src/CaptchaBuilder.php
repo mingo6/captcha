@@ -3,13 +3,13 @@
 /**
  * Builds a new captcha image
  *
- * @author Yokov <yokov666@gmail.com>
+ * @author Yokov<yokov666@gmail.com>
  */
 
-namespace Yokov\Captcha;
+namespace Sobyte\Captcha;
 
-use Yokov\Captcha\Library\CharBuilder;
-use Yokov\Captcha\Library\ImageBuilder;
+use Sobyte\Captcha\Library\CharBuilder;
+use Sobyte\Captcha\Library\ImageBuilder;
 
 /**
  * Class CaptchaBuilder
@@ -23,7 +23,7 @@ use Yokov\Captcha\Library\ImageBuilder;
  * @property mixed  fontPath
  * @property mixed  fontSize
  *
- * @package Yokov\Captcha
+ * @package Sobyte\Captcha
  */
 class CaptchaBuilder
 {

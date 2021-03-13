@@ -2,10 +2,10 @@
 /**
  *  Generates image
  *
- * @author Yokov <yokov666@gmail.com>
+ * @author Yokov<yokov666@gmail.com>
  */
 
-namespace Yokov\Captcha\Library;
+namespace Sobyte\Captcha\Library;
 
 /**
  * Class CaptchaBuilder
@@ -18,7 +18,7 @@ namespace Yokov\Captcha\Library;
  * @property mixed  isGif
  * @property mixed  gifFps
  *
- * @package Yokov\Captcha
+ * @package Sobyte\Captcha
  */
 class ImageBuilder
 {

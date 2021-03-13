@@ -2,10 +2,10 @@
 /**
  *  Generates random code
  *
- * @author Yokov <yokov666@gmail.com>
+ * @author Yokov<yokov666@gmail.com>
  */
 
-namespace Yokov\Captcha\Library;
+namespace Sobyte\Captcha\Library;
 
 
 class CharBuilder

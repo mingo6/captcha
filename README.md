@@ -2,11 +2,12 @@
 
 ##### 一个 PHP 验证码库
 
+Fork from yokov/captcha and fix some bug.
 
 ### 安装
 
 ```shell
-$ composer require yokov/captcha -vvv
+$ composer require sobyte/captcha -vvv
 ```
 
 ### 使用
@@ -31,7 +32,7 @@ $config = [
     'fontSize'          => 24,
 ];
 
-$builder = new \Yokov\Captcha\CaptchaBuilder($config);
+$builder = new \Sobyte\Captcha\CaptchaBuilder($config);
 
 // 获取验证码字符串
 $builder->getChar();

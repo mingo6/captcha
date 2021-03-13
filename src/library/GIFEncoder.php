@@ -1,6 +1,6 @@
 <?php
 
-namespace Yokov\Captcha\Library;
+namespace Sobyte\Captcha\Library;
 
 Class GIFEncoder
 {
