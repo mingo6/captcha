@@ -72,8 +72,8 @@ Class GIFEncoder
         GIFEncoder::GIFAddHeader();
 
         for ($i = 0; $i < count($this->BUF); $i++) {
-
-            GIFEncoder::GIFAddFrames($i, $GIF_dly[$i]);
+            $d = isset($GIF_dly[$i]) ? $GIF_dly[$i] : 0;
+            GIFEncoder::GIFAddFrames($i, $d);
 
         }
 
